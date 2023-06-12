@@ -1,0 +1,3 @@
+# Refactoring
+
+For this refactor I make sure the first declaration of `candidate` is not `undefined`. I noticed in the logic that `candidate` can be either the `TRIVIAL_PARTITION_KEY` or `JSON.stringify(event.partitionKey)` in case the `event` exists. For the other two validations I found the specific cases in which `candidate` can change. I think this is a more readable code because it only adds two validations instead of multiple `if` `else` like the original.The tests covers each case in which there is an `undefined` parameter or one whit a `partitionKey`

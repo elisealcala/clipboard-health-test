@@ -1,0 +1,25 @@
+{
+  "name": "clipboard-health-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "data.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elisealcala/clipboard-health-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elisealcala/clipboard-health-test/issues"
+  },
+  "homepage": "https://github.com/elisealcala/clipboard-health-test#readme",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
